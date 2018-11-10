@@ -18,7 +18,7 @@ Define Pushing:
 Define Pull Request:
 -----------------------------------------------
 Student 2: This is the master branch!
-Full Name:
+Full Name:Me
 Define Forking:
 Define Cloning:
 Define Branching:
