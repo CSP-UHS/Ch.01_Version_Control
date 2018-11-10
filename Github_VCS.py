@@ -17,7 +17,7 @@ Define Merging:
 Define Pushing:
 Define Pull Request:
 -----------------------------------------------
-Student 2: This is the master branch!
+Student 2: This is the testing branch!
 Full Name:
 Define Forking:
 Define Cloning:
