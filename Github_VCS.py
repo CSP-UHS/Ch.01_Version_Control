@@ -19,7 +19,7 @@ Define Pull Request:
 -----------------------------------------------
 Student 2: This is the testing branch!
 Full Name: Marc Hermon
-Define Forking:
+Define Forking: When you make a copy from one github account to another
 Define Cloning:
 Define Branching:
 Define Committing:
