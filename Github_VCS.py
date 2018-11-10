@@ -18,7 +18,7 @@ Define Pushing:
 Define Pull Request:
 -----------------------------------------------
 Student 2: This is the testing branch!
-Full Name:
+Full Name: Marc Hermon
 Define Forking:
 Define Cloning:
 Define Branching:
