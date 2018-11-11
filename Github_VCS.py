@@ -18,7 +18,7 @@ Define Pushing:
 Define Pull Request:
 -----------------------------------------------
 Student 2:
-Full Name: Marc Hermon
+Full Name: Marc C. Hermon
 Define Forking: When you make a copy from one github account to another
 Define Cloning:
 Define Branching:
