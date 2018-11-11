@@ -17,9 +17,9 @@ Define Merging:
 Define Pushing:
 Define Pull Request:
 -----------------------------------------------
-Student 2: This is the master branch!
-Full Name:Me
-Define Forking:
+Student 2: This is the testing branch!
+Full Name: Marc Hermon
+Define Forking: When you make a copy from one github account to another
 Define Cloning:
 Define Branching:
 Define Committing:
