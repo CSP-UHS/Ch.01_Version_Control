@@ -18,11 +18,11 @@ Define Pushing:
 Define Pull Request:
 -----------------------------------------------
 Student 2:
-Full Name: Marc C. Hermon
+Full Name: Marc Christopher Hermon
 Define Forking: When you make a copy from one github account to another
-Define Cloning:
-Define Branching:
-Define Committing:
+Define Cloning: Copying a remote repository to your computer
+Define Branching: Creating a branch to test code on different from your master branch
+Define Committing: Saving with a message and checkpoint.
 Define Merging:
 Define Pushing:
 Define Pull Request:
