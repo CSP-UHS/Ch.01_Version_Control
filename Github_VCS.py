@@ -17,7 +17,7 @@ Define Merging:
 Define Pushing:
 Define Pull Request:
 -----------------------------------------------
-Student 2: This is the testing branch!
+Student 2:
 Full Name: Marc Hermon
 Define Forking: When you make a copy from one github account to another
 Define Cloning:
