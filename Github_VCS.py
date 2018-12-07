@@ -7,8 +7,8 @@ Each student has 10 lines of code to play with!
 
 
 -----------------------------------------------
-Student 1: This is my master branch Awesome
-Full Name:
+Student 1: This is my testing branch
+Full Name: Marc Hermon
 Define Forking:
 Define Cloning:
 Define Branching:
