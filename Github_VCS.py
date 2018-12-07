@@ -7,7 +7,7 @@ Each student has 10 lines of code to play with!
 
 
 -----------------------------------------------
-Student 1: This is my testing branch
+Student 1: I am awesome
 Full Name: Marc Hermon
 Define Forking:
 Define Cloning:
