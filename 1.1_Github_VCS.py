@@ -68,10 +68,11 @@ Each student has 10 lines of code to play with!
 
 
 ------------------Student 07------------------
-This is the Testing branch lmaoooooooo
-But this is an epic gamer moment
-You should love this
-
+Roses are red
+Coding is fun
+Lets do some coding
+Before class is done
+-Tristan
 
 
 
