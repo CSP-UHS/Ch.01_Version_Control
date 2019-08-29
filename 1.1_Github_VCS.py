@@ -70,6 +70,7 @@ Each student has 10 lines of code to play with!
 ------------------Student 07------------------
 This is the master branch
 Tristan Holman
+Love mock trial
 
 
 
