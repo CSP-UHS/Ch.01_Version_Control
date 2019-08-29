@@ -1,21 +1,20 @@
 '''
-Sign your name:________________
+Sign your name: Tristan
 
 
+Define Forking: Downloading online code to your online account
 
-Define Forking: 
+Define Cloning: Downloading online code to your local account
 
-Define Cloning: 
+Define Branching: Creating a separate area of code to test it
 
-Define Branching:
+Define Committing: Special saving with notes
 
-Define Committing: 
+Define Merging: Combining to separate codes into one code
 
-Define Merging: 
+Define Pushing: Sending local code back out to your online account
 
-Define Pushing:
-
-Define Pull Request:
+Define Pull Request: Requesting for code that was forked to be added to the original code
 
 
 '''
