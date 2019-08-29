@@ -38,9 +38,9 @@ Each student has 10 lines of code to play with!
 
 
 ------------------Student 04------------------
-This is the master branch
-Me
-
+This is the testing branch
+Steven Bui
+Favorite color is black
 
 
 
