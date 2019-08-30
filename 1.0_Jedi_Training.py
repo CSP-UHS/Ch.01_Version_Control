@@ -1,21 +1,21 @@
 '''
-Sign your name:________________
+Sign your name: Rowdy Alexander
 
 
 
-Define Forking: 
+Define Forking: Making your own clone copy of code of a master branch
 
-Define Cloning: 
+Define Cloning: Creating a copy of a line or lines of code
 
-Define Branching:
+Define Branching: Alternate code in the same package that doesn't edit the main branch
 
-Define Committing: 
+Define Committing:  A really cool way of saving and making comments on it
 
-Define Merging: 
+Define Merging: Combining two lines of code or multiple lines of code
 
-Define Pushing:
+Define Pushing: saving the code and sending it back to your github account
 
-Define Pull Request:
+Define Pull Request: This is where you send in your code and have the teacher grade it
 
 
 '''
