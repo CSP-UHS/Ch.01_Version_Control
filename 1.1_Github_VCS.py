@@ -7,8 +7,8 @@ Each student has 10 lines of code to play with!
 
 
 
-------------------Student 01------------------
-
+Rowdy Alexander
+I love Fishing
 
 
 
