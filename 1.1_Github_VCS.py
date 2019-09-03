@@ -199,8 +199,8 @@ Each student has 10 lines of code to play with!
 
 ------------------Student 20------------------
 This is the testing branch
-Marc Hermon
-Go Cardinals!!!!!
+Me
+Go Hawks!!!!!
 
 
 
