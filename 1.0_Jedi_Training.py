@@ -1,15 +1,15 @@
 '''
-Sign your name:________________
+Sign your name:___Henry Hmar_____________
 
 
 
-Define Forking: 
+Define Forking: coping a code, taking the file.
 
-Define Cloning: 
+Define Cloning: duplication of code.
 
 Define Branching:
 
-Define Committing: 
+Define Committing: writing notes to a code line.
 
 Define Merging: 
 
@@ -19,3 +19,4 @@ Define Pull Request:
 
 
 '''
+print (2/22)
