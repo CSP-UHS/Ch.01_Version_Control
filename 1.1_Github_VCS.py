@@ -21,9 +21,9 @@ Each student has 10 lines of code to play with!
 This is the master branch
 Danny Halstead is Epic!
 Go Vikings!!!!!!!!!!!!!!
-
-
-
+Fishing is good
+I have no idea what to write
+I hope u enjoyed reading this
 
 
 
