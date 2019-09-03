@@ -9,12 +9,12 @@ so the code can be worked on
 
 Define Branching: Multiple strands of development going on simultaneously
 
-Define Committing: A checkpoint in the development of a project
+Define Committing: A checkpoint in the development of a project, (command, K)
 
 Define Merging: Combining various versions of a code
 
 Define Pushing: To push software into an environment that is publicly
-accessible to the rest of thw world
+accessible to the rest of thw world (shift, command, K)
 
 Define Pull Request: Asking the project owner to pull your changes
 and merge them into the original code
