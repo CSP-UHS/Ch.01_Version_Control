@@ -28,7 +28,7 @@ Each student has 10 lines of code to play with!
 
 
 ------------------Student 03------------------
-This is the the master branch
+This is the the testing branch
 Mal Hmar
 Go jhawk!!!!
 
