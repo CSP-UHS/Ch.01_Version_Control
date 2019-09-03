@@ -2,14 +2,13 @@
 Sign your name: Peggy Barley
 
 
-
 Define Forking: A copy of an online read-only repository that
 can be edited
 
 Define Cloning: Downloading the forked code to a local computer
 so the code can be worked on
 
-Define Branching:  Multiple strands of development going on simultaneously
+Define Branching: Multiple strands of development going on simultaneously
 
 Define Committing: A checkpoint in the development of a project
 
