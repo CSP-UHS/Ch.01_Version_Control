@@ -138,11 +138,11 @@ Each student has 10 lines of code to play with!
 
 
 ------------------Student 14------------------
-
-
-
-
-
+Kenny Flory
+I need more sleep
+Show Choir is fun
+Iowa State Is Best Engineering School
+This class is fun
 
 
 
