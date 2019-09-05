@@ -51,10 +51,9 @@ Each student has 10 lines of code to play with!
 This is the master branch
 Peggy Y. Barley
 Go Jhawks
-I like moth orchids
+I like moth orchids, riddles, and random facts
 Lemon meringue pie is the best type of pie
 I'm from Sweden, and I speak Swedish and English
-I like riddles and random facts
 Solitaire, hanjie, and sudoku is actually really fun
 Horror movies/books are the best
 I really like the Joker and Pennywise, they seem fun
