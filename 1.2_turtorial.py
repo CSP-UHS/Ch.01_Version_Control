@@ -6,28 +6,35 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
-yoda.write('Sign Your Name Here',font=("Arial", 12, "normal"))
+bucky = turtle.Turtle()
+bucky.shape("turtle")
+bucky.speed(10)
+bucky.penup()
+bucky.goto(50,-150)
+bucky.pendown()
+bucky.circle(130)
+#first ring
+bucky.penup()
+bucky.goto(50,-120)
+bucky.pendown()
+bucky.circle(100)
+#second ring
+bucky.pendown()
+bucky.penup()
+bucky.goto(50, -90)
+bucky.pendown()
+bucky.circle(70)
+#third ring
+#tina.pendown()
+#tina.penup()
+#tina.goto(50, -60)
+#tina.pendown()
+#tina.circle(40)
+#fourth ring
+bucky.penup()
+bucky.goto(38, -10)
+bucky.pendown()
+bucky.goto(41, -5)
 
 
 turtle.exitonclick() #Keeps pycharm window open
