@@ -6,28 +6,28 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
+timmythicc=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
 screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
-yoda.write('Peggy Barely',font=("Arial", 15, "normal"))
+timmythicc.pensize(3) # width of pen line
+timmythicc.speed(10)  # speed of drawing. Go fast to not waste time.
+timmythicc.color("#00FF00")
+timmythicc.circle(100)  #head
+timmythicc.penup()
+timmythicc.setpos(50,185) #right ear
+timmythicc.pendown()
+timmythicc.goto(200,210)
+timmythicc.goto(88,145)
+timmythicc.penup()
+timmythicc.setpos(-50,185)  #left ear
+timmythicc.pendown()
+timmythicc.goto(-200,210)
+timmythicc.goto(-88,145)
+timmythicc.penup()
+timmythicc.setpos(200,-300)
+timmythicc.pendown()
+timmythicc.pencolor('#00FF00')
+timmythicc.write('Peggy Y. Barely',font=("Arial", 15, "normal"))
 
 
 turtle.exitonclick() #Keeps pycharm window open
