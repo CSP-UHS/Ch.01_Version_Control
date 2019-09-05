@@ -168,13 +168,13 @@ Each student has 10 lines of code to play with!
 
 
 ------------------Student 17------------------
-Yeeeet
-lil uzi
-7000000000000000000007
-yeeet
-
-
-
+Drake Kimmer
+Senior
+Love watching tv shows
+I play soccer
+Varsity Bowler
+hate school
+living life to the fullest
 
 
 
