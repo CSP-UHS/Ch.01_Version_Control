@@ -19,7 +19,7 @@ yoda.pendown()
 yoda.goto(200,210)
 yoda.goto(88,145)
 yoda.penup()
-yoda.setpos(-50,185)  #left ear
+yoda.setpos(-50,185)
 yoda.pendown()
 yoda.goto(-200,210)
 yoda.goto(-88,145)
