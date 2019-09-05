@@ -1,21 +1,21 @@
 '''
-Sign your name:________________
+Sign your name: Cal Watson
 
 
 
-Define Forking: 
+Define Forking: copying a shared repository
 
-Define Cloning: 
+Define Cloning: copying a forked repository onto a local repository/computer
 
-Define Branching:
+Define Branching: duplicating a branch to test code on
 
-Define Committing: 
+Define Committing: saving a file and adding a description to the changes made on it
 
-Define Merging: 
+Define Merging: replacing a branch with another branches' code
 
-Define Pushing:
+Define Pushing: sending the changes made on a file from a local to remote repository
 
-Define Pull Request:
+Define Pull Request: sending an owner of a file the changes made on its copied file
 
 
 '''
