@@ -27,7 +27,7 @@ yoda.penup()
 yoda.setpos(200,-300)
 yoda.pendown()
 yoda.pencolor('#00FF00')
-yoda.write('Sign Your Name Here',font=("Arial", 12, "normal"))
+yoda.write('Peggy Barely',font=("Arial", 15, "normal"))
 
 
 turtle.exitonclick() #Keeps pycharm window open
