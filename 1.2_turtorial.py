@@ -6,28 +6,32 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
+kyle=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
 screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
-yoda.write('Sign Your Name Here',font=("Arial", 12, "normal"))
+kyle.pensize(3) # width of pen line
+kyle.speed(10)  # speed of drawing. Go fast to not waste time.
+kyle.color("#00FF00")
+kyle.circle(100)  #head
+kyle.penup()
+kyle.setpos(50,180) #right ear
+kyle.pendown()
+kyle.goto(95,210)
+kyle.goto(88,145)
+kyle.penup()
+kyle.setpos(-50,180)  #left ear
+kyle.pendown()
+kyle.goto(-95,210)
+kyle.goto(-88,145)
+kyle.penup()
+kyle.goto(35,50)
+kyle.pendown()
+kyle.goto(30,30)
+kyle.penup()
+kyle.setpos(200,-300)
+kyle.pendown()
+kyle.pencolor('#00FF00')
+kyle.write('Lily B',font=("Arial", 12, "normal"))
 
 
 turtle.exitonclick() #Keeps pycharm window open

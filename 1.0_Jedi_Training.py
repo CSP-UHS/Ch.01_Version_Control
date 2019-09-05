@@ -1,13 +1,14 @@
 '''
-Sign your name:________________
+Sign your name: Lily
 
 
 
 Define Forking: 
 
-Define Cloning: 
+Define Cloning: It's like downloading
 
-Define Branching:
+Define Branching: When you want to test something but you don't want it to affect your original code you create a
+    branch to see if it works
 
 Define Committing: 
 
