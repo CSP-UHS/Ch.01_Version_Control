@@ -31,3 +31,29 @@ yoda.write('Sign Your Name Here',font=("Arial", 12, "normal"))
 
 
 turtle.exitonclick() #Keeps pycharm window open
+
+import turtle
+anakin = turtle.Turtle()
+
+screen=turtle.Screen()
+screen.bgcolor("green")
+anakin.color("silver")
+anakin.forward(15)
+anakin.right(90)
+anakin.forward(10)
+anakin.left(90)
+anakin.forward(50)
+anakin.left(90)
+anakin.forward(10)
+anakin.right(90)
+anakin.forward(100)
+anakin.right(90)
+anakin.forward(5)
+anakin.left(90)
+anakin.forward(25)
+anakin.left(90)
+anakin.forward(5)
+anakin.right(90)
+anakin.forward(50)
+
+turtle.exitonclick() #Keeps pycharm window open
