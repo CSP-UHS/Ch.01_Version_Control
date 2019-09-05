@@ -11,26 +11,23 @@ screen=turtle.Screen() # makes a screen object
 screen.bgcolor('black') # colors the screen
 yoda.pensize(3) # width of pen line
 yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
+yoda.color("blue")
+yoda.circle(101)  #head
 yoda.penup()
 yoda.setpos(50,185) #right ear
 yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
+yoda.goto(200,240)
+yoda.goto(100,100)
 yoda.penup()
 yoda.setpos(-50,185)  #left ear
 yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
+yoda.goto(-200,240)
+yoda.goto(-100,100)
 yoda.penup()
 yoda.setpos(200,-300)
 yoda.pendown()
-yoda.pencolor('#00FF00')
-yoda.write('Sign Your Name Here',font=("Arial", 12, "normal"))
-yoda.setpos(100,-100)
-yoda.write('henry is awesome' , font= ("Arial" , 33, "normal") )
-
+yoda.pencolor('blue')
+yoda.write('Henry',font=("Arial", 100, "normal"))
 
 
 
