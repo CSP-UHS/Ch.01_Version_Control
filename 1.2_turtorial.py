@@ -1,14 +1,8 @@
-'''
-Modify the starter code below to create your own cool drawing
-and then Pull Request it to your instructor.
-
-Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=turtle
-
-'''
-import turtle
-yoda=turtle.Turtle()
+import turtle #Without turtle there isn't ocean
+DeepSeaSnapper=turtle.Turtle() #the best turtles are underwater
 screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
+screen.bgcolor('white') # colors the background white
+
 yoda.pensize(3) # width of pen line
 yoda.speed(10)  # speed of drawing. Go fast to not waste time.
 yoda.color("#00FF00")
