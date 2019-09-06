@@ -6,28 +6,64 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
-yoda.write('Sign Your Name Here',font=("Arial", 12, "normal"))
+tina = turtle.Turtle()
+tina.shape('turtle')
+
+tina.penup()
+tina.right(90)
+tina.forward(180)
+tina.right(90)
+tina.forward(180)
+tina.right(90)
+
+tina.pendown()
+tina.pencolor("red")
+tina.forward(300)
+tina.right(90)
+tina.pencolor("orange")
+tina.forward(300)
+tina.right(90)
+tina.pencolor("yellow")
+tina.forward(250)
+tina.right(90)
+tina.pencolor("green")
+tina.forward(250)
+tina.right(90)
+tina.pencolor("blue")
+tina.forward(251)
+tina.right(135)
+tina.pencolor("indigo")
+tina.forward(130)
+tina.right(45)
+tina.pencolor("violet")
+tina.forward(110)
+tina.right(62)
+tina.pencolor("red")
+tina.forward(105)
+
+tina.penup()
+tina.backward(90)
+tina.right(180)
+tina.forward(17)
+tina.right(28)
+
+tina.pendown()
+tina.pencolor("orange")
+tina.forward(90)
+tina.right(38)
+tina.pencolor("yellow")
+tina.forward(85)
+tina.backward(85)
+tina.left(128)
+tina.pencolor("green")
+tina.forward(110)
+tina.right(37)
+tina.pencolor("blue")
+tina.forward(112)
+tina.backward(112)
+tina.left(127)
+tina.pencolor("indigo")
+tina.forward(90)
 
 
 turtle.exitonclick() #Keeps pycharm window open
