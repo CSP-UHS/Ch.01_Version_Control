@@ -11,7 +11,7 @@ DeepSeaSnapper.pendown()
 
 DeepSeaSnapper.penup()
 
-DeepSeaSnapper.pencolor('#Purple')
+DeepSeaSnapper.pencolor('Black')
 DeepSeaSnapper.write('Danny H',font=("ComicSans", 12, "normal"))
 
 turtle.exitonclick() #Keeps pycharm window open
