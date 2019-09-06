@@ -7,13 +7,33 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 '''
 import turtle
 drake=turtle.Turtle()
-drake.shape('pen')
 
-drake.color("blue")
+drake.color("lightgreen")
+drake.pensize(3)
+drake.speed(5)
+
 drake.pendown()
-drake.forward(50)
+drake.forward(85)
+drake.left(90)
+drake.forward(100)
+drake.right(90)
+drake.forward(10)
+drake.left(90)
+drake.forward(10)
+drake.left(90)
+drake.forward(105)
 
-yoda.write('Drake Kimmer',font=("Arial", 12, "normal"))
+
+
+
+
+
+
+
+
+
+
+drake.write('Drake Kimmer',font=("Arial", 12, "normal"))
 
 
 turtle.exitonclick() #Keeps pycharm window open
