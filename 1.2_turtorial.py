@@ -6,28 +6,41 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
-yoda.write('Sign Your Name Here',font=("Arial", 12, "normal"))
+cal=turtle.Turtle()
+screen=turtle.Screen()
+screen.bgcolor('black')
+cal.speed(10)
+cal.penup()
+cal.setpos(100,50)
+cal.color('white')
+cal.pendown()
+cal.begin_fill()
+cal.left(90)
+cal.circle(100,180)
+cal.left(90)
+cal.forward(200)
+cal.end_fill()
+cal.color('gray')
+cal.begin_fill()
+cal.right(135)
+cal.forward(30)
+cal.right(45)
+cal.penup()
+cal.setpos(-100,50)
+cal.left(135)
+cal.pendown()
+cal.forward(30)
+cal.left(45)
+cal.forward(160)
+cal.penup()
+cal.setpos(-100,50)
+cal.pendown()
+cal.forward(200)
+cal.end_fill()
+cal.penup()
+cal.color('yellow')
+cal.penup()
+cal.write('Cal Watson',font=("Arial", 12, "normal"))
 
 
 turtle.exitonclick() #Keeps pycharm window open
