@@ -1,6 +1,8 @@
 '''
 Modify the starter code below to create your own cool drawing
-and then Pull Request it to your instructor.
+and then Pull Request it to your instructor. Make sure you
+keep the last two lines of code. Your name must be written on your art.
+The last line keeps the window open until you click to close.
 
 Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=turtle
 
@@ -111,6 +113,5 @@ bb8.penup()
 bb8.setpos(150,-150)
 bb8.pendown()
 bb8.write('Cal Watson',font=("Arial", 12, "normal"))
-
 
 turtle.exitonclick() #Keeps pycharm window open
