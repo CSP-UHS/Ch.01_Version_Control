@@ -66,6 +66,11 @@ bucky.goto(-5,-10)
 bucky.goto(20,-10)
 bucky.end_fill()
 bucky.penup()
-bucky.goto(80,80)
+bucky.color('blue')
+bucky.goto(80,120)
+bucky.pendown()
+bucky.write('Julie Pham',font=("Arial", 12, "normal"))
+bucky.penup()
+bucky.goto(-102, 53)
 
 turtle.exitonclick() #Keeps pycharm window open
