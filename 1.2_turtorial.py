@@ -107,7 +107,7 @@ anakin.left(45)
 anakin.forward(20)
 anakin.end_fill()
 anakin.penup()
-anakin.goto(100,-100)
+anakin.goto(100,-99)
 
 
 
