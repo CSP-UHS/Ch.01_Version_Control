@@ -37,7 +37,7 @@ kyle.penup()
 kyle.setpos(200,-300)
 kyle.pendown()
 kyle.pencolor('#00FF00')
-kyle.write('Lily B',font=("Arial", 12, "normal"))
+kyle.write('Lily Burkhead',font=("Arial", 12, "normal"))
 
 
 turtle.exitonclick() #Keeps pycharm window open
