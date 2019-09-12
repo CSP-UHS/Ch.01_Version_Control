@@ -13,10 +13,13 @@ DeepSeaSnapper.backward(300)
 DeepSeaSnapper.forward(600)
 DeepSeaSnapper.backward(200)
 DeepSeaSnapper._rotate(-90)
-DeepSeaSnapper.forward(300)
-DeepSeaSnapper.penup()
+DeepSeaSnapper.forward(200)
+DeepSeaSnapper.backward(600)
+DeepSeaSnapper.forward(200)
+DeepSeaSnapper._rotate(90)
+DeepSeaSnapper.forward(200)
 
 DeepSeaSnapper.pencolor('Black')
 DeepSeaSnapper.write('Danny H',font=("ComicSans", 12, "normal"))
-
+DeepSeaSnapper.penup()
 turtle.exitonclick() #Keeps pycharm window open
