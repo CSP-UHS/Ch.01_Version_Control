@@ -9,17 +9,39 @@ import turtle
 
 pencil = turtle
 pencil.penup()
-pencil.speed(10)
 
+
+pencil.speed(30)
+x = -10
+while x < 10:
+    pencil.color("black")
+    pencil.goto(x*20,200)
+    pencil.pendown()
+    pencil.goto(x*20, -200)
+    pencil.penup()
+    x+=1
+
+y = -10
+while y <10:
+    pencil.goto(-200,y*20)
+    pencil.pendown()
+    pencil.goto(200,y*20)
+    pencil.penup()
+    y+=1
+
+
+
+pencil.speed(10)
 pencil.color("#252525")
-pencil.goto(0,75)
+pencil.goto(0,65)
 pencil.pendown()
 pencil.shape("circle")
-pencil.shapesize(25,15,10)
+pencil.shapesize(20,15,10)
 pencil.stamp()
 pencil.shape("turtle")
 pencil.shapesize(1,1,1)
 pencil.penup()
+pencil.hideturtle()
 pencil.color("red")
 pencil.pensize(12)
 pencil.goto(0,-150)
@@ -81,6 +103,18 @@ pencil.pendown()
 pencil.pensize(12)
 pencil.color("black")
 pencil.circle(150)
-
+pencil.penup()
+pencil.goto(-140, -60)
+pencil.color("#8a8a8a")
+pencil.left(90)
+pencil.pendown()
+x=1
+while x < 140:
+    pencil.forward(2)
+    pencil.right(1)
+    x+=1
+pencil.penup()
+pencil.goto(70,-165)
+pencil.write("Tristan Holman", 20)
 
 turtle.exitonclick() #Keeps pycharm window open
