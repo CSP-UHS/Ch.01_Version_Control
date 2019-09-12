@@ -12,7 +12,9 @@ drake.color("lightgreen")
 drake.pensize(3)
 drake.speed(5)
 
+
 drake.pendown()
+drake.begin_fill()
 drake.forward(85)
 drake.left(90)
 drake.forward(100)
@@ -22,11 +24,15 @@ drake.left(90)
 drake.forward(10)
 drake.left(90)
 drake.forward(105)
-
-
-
-
-
+drake.left(90)
+drake.forward(10)
+drake.left(90)
+drake.forward(10)
+drake.right(90)
+drake.forward(100)
+drake.end_fill()
+drake.penup()
+drake.forward(50)
 
 
 
