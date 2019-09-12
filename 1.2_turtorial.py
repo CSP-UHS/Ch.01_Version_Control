@@ -11,6 +11,8 @@ drake=turtle.Turtle()
 drake.color("lightgreen")
 drake.pensize(3)
 drake.speed(5)
+screen=turtle.Screen()
+screen.bgcolor("blue")
 
 
 drake.pendown()
