@@ -10,6 +10,7 @@ import turtle
 pencil = turtle
 pencil.penup()
 
+#This code adds a grid if you remove the quotes
 """
 pencil.speed(30)
 x = -10
@@ -38,6 +39,7 @@ pencil.pendown()
 pencil.shape("circle")
 pencil.shapesize(10,15,10)
 pencil.stamp()
+
 pencil.shape("turtle")
 pencil.shapesize(1,1,1)
 pencil.penup()
@@ -50,6 +52,7 @@ pencil.pendown()
 pencil.circle(150)
 pencil.end_fill()
 pencil.penup()
+
 pencil.goto(-150,0)
 pencil.pensize(10)
 pencil.right(90)
@@ -60,19 +63,23 @@ pencil.circle(145, 180)
 pencil.left(90)
 pencil.goto(-150,0)
 pencil.end_fill()
+
 pencil.left(180)
 pencil.color("black")
 pencil.pendown()
 pencil.pensize(10)
 pencil.goto(-50,0)
 pencil.penup()
+
 pencil.goto(50,0)
 pencil.pendown()
 pencil.goto(150,0)
 pencil.penup()
+
 pencil.pensize(3)
 pencil.goto(-25,0)
 pencil.penup()
+
 pencil.color("#ff1a1a")
 pencil.goto(0,0)
 pencil.pendown()
@@ -80,6 +87,7 @@ pencil.begin_fill()
 pencil.circle(75)
 pencil.end_fill()
 pencil.penup()
+
 pencil.goto(20, 75)
 pencil.color("#ffe6e6")
 pencil.begin_fill()
@@ -92,6 +100,7 @@ pencil.begin_fill()
 pencil.circle(50)
 pencil.end_fill()
 pencil.penup()
+
 pencil.goto(0,-25)
 pencil.color("white")
 pencil.pendown()
@@ -99,6 +108,7 @@ pencil.begin_fill()
 pencil.circle(25)
 pencil.end_fill()
 pencil.penup()
+
 pencil.goto(-150,10)
 pencil.color("#8a8a8a")
 pencil.pensize(12)
@@ -106,6 +116,7 @@ pencil.right(90)
 pencil.pendown()
 pencil.circle(150,180)
 pencil.penup()
+
 pencil.left(270)
 pencil.goto(0,-150)
 pencil.pendown()
@@ -113,14 +124,7 @@ pencil.pensize(12)
 pencil.color("black")
 pencil.circle(150)
 pencil.penup()
-"""
-x=1
-while x < 180:
-    pencil.forward(2)
-    pencil.left(1)
-    x+=1
 
-"""
 pencil.penup()
 pencil.goto(80,-175)
 pencil.write("Tristan Holman", 20)
