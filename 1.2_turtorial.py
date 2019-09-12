@@ -7,7 +7,11 @@ DeepSeaSnapper.pensize(3) # width of pen line
 DeepSeaSnapper.speed(0)  # speed of drawing
 DeepSeaSnapper.color("Black") # color of line
 
-#Trying to make tic tac toe gif
+#Tic-Tac-Toe Grid
+DeepSeaSnapper.penup()
+DeepSeaSnapper._rotate(-90)
+DeepSeaSnapper.forward(85)
+DeepSeaSnapper._rotate(90)
 DeepSeaSnapper.pendown()
 DeepSeaSnapper.backward(300)
 DeepSeaSnapper.forward(600)
@@ -18,6 +22,14 @@ DeepSeaSnapper.backward(600)
 DeepSeaSnapper.forward(200)
 DeepSeaSnapper._rotate(90)
 DeepSeaSnapper.forward(200)
+DeepSeaSnapper.backward(600)
+DeepSeaSnapper.forward(200)
+DeepSeaSnapper._rotate(90)
+DeepSeaSnapper.forward(200)
+DeepSeaSnapper.backward(600)
+
+#Actual Tic-Tac-Toe Game
+
 
 DeepSeaSnapper.pencolor('Black')
 DeepSeaSnapper.write('Danny H',font=("ComicSans", 12, "normal"))
