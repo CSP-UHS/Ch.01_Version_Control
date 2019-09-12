@@ -8,7 +8,7 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 import turtle
 yoda=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
+screen.bgcolor('') # colors the screen
 yoda.pensize(3) # width of pen line
 yoda.speed(10)  # speed of drawing. Go fast to not waste time.
 yoda.color("#00FF00")
@@ -27,7 +27,7 @@ yoda.penup()
 yoda.setpos(200,-300)
 yoda.pendown()
 yoda.pencolor('#00FF00')
-yoda.write('Sign Your Name Here',font=("Arial", 12, "normal"))
+yoda.write('Dylan Smith',font=("Arial", 12, "normal"))
 
 
 turtle.exitonclick() #Keeps pycharm window open
