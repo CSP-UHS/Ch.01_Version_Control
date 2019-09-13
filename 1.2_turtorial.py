@@ -28,9 +28,8 @@ fish.pendown()
 fish.circle(13)
 fish._rotate(-90)
 fish.penup()
-fish.forward(56)
-fish.pendown()
-fish.circle(-35,40)
+fish.forward(150)
+
 
 
 
