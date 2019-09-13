@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Ch.02_Algerbra/.idea/Ch.02_Algerbra.iml" filepath="$PROJECT_DIR$/../Ch.02_Algerbra/.idea/Ch.02_Algerbra.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Ch1_VCS.iml" filepath="$PROJECT_DIR$/.idea/Ch1_VCS.iml" />
     </modules>
   </component>
