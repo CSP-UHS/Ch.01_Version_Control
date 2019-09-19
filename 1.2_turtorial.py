@@ -10,24 +10,42 @@ timmy=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
 screen.bgcolor('black') # colors the screen
 timmy.shape('circle')
-timmy.shapesize(5,2,1)
-timmy.pensize(3) # width of pen line
-timmy.speed(10) # speed of drawing. Go fast to not waste time.
-timmy.color('#E94A88')
+timmy.shapesize(6,3,2)
+timmy.pensize(5) # width of pen line
+timmy.speed(15) # speed of drawing. Go fast to not waste time.
+timmy.hideturtle()
+timmy.penup()
+
+timmy.color('#F1134B') #Left leg
+timmy.setpos(-100,10)
+timmy.tilt(112.5)
+timmy.stamp()
+
+timmy.setpos(100,10) #Right leg
+timmy.tilt(90)
+timmy.stamp()
+
+timmy.setpos(0,0)
+timmy.pendown()
+timmy.color('#E94A88') #Head/body
 timmy.begin_fill()
 timmy.circle(150)
 timmy.end_fill()
-timmy.penup()
+
+# timmy.penup() #Left arm
+# timmy.setpos(-120,225)
+# timmy.tilt(22.5)
+# timmy.stamp()
+
 
 
 
 turtle.exitonclick() #Keeps pycharm window open
 
 
+
 '''
 
-timmythicc.setpos(50,185)
-timmythicc.pendown()
 timmythicc.goto(200,210)
 timmythicc.goto(88,145)
 timmythicc.penup()
