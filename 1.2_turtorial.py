@@ -6,28 +6,42 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
-yoda.write('Sign Your Name Here',font=("Arial", 12, "normal"))
+Snow=turtle.Turtle()
+screen=turtle.Screen() # makes a screen object turtle
+screen.bgcolor('light blue') # colors the screen
+Snow.pensize(3) # width of pen line
+Snow.speed(10)
+Snow.color("white")
+Snow.begin_fill()
+Snow.circle(50)
+Snow.end_fill()
+Snow.penup()
+Snow.setpos(0,-200)
+Snow.pendown()
+Snow.begin_fill()
+Snow.circle(100)
+Snow.end_fill()
+Snow.penup()
+Snow.color("black")
+Snow.goto(0,100)
+Snow.pendown()
+Snow.begin_fill()
+Snow.goto(50,100)
+Snow.goto(50,105)
+Snow.goto(25,105)
+Snow.goto(25,155)
+Snow.goto(-25,155)
+Snow.goto(-25,105)
+Snow.goto(-50,105)
+Snow.goto(-50,100)
+Snow.goto(0,100)
+Snow.end_fill()
+Snow.penup()
+Snow.setpos(200,-200)
+Snow.pendown()
+Snow.pencolor('black')
+Snow.write('Kenny Flory',font=("Arial", 12, "normal"))
 
 
-turtle.exitonclick() #Keeps pycharm window open test
+turtle.exitonclick() #Keeps pycharm window open
+
