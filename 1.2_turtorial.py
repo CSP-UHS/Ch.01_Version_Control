@@ -16,26 +16,37 @@ timmy.speed(15) # speed of drawing. Go fast to not waste time.
 timmy.hideturtle()
 timmy.penup()
 
-timmy.color('#F1134B') #Left leg
+timmy.color('#F1134B') #left leg
 timmy.setpos(-100,10)
-timmy.tilt(112.5)
+timmy.settiltangle(112.5)
 timmy.stamp()
 
-timmy.setpos(100,10) #Right leg
-timmy.tilt(90)
+timmy.setpos(100,10) #right leg
+timmy.settiltangle(247.5)
 timmy.stamp()
 
 timmy.setpos(0,0)
+timmy.settiltangle(0)
 timmy.pendown()
 timmy.color('#E94A88') #Head/body
 timmy.begin_fill()
 timmy.circle(150)
 timmy.end_fill()
 
-# timmy.penup() #Left arm
-# timmy.setpos(-120,225)
-# timmy.tilt(22.5)
-# timmy.stamp()
+timmy.penup() #left arm
+timmy.setpos(-120,225)
+timmy.settiltangle(22.5)
+timmy.stamp()
+
+timmy.setpos(150,150) #right arm
+timmy.settiltangle(202.5)
+timmy.stamp()
+
+timmy.shapesize(3,2,1) #blush
+timmy.color()
+timmy.setpos(0,0)
+timmy.settiltangle(90)
+timmy.stamp()
 
 
 
