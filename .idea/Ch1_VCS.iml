@@ -7,6 +7,7 @@
     <orderEntry type="module" module-name="Ch.02_Algerbra" />
     <orderEntry type="module" module-name="Ch.03_Imput_Output" />
     <orderEntry type="module" module-name="Ch.04_conditionals" />
+    <orderEntry type="module" module-name="Ch.05_Looping" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

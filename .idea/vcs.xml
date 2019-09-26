@@ -4,5 +4,6 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Ch.03_Imput_Output" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Ch.04_conditionals" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Ch.05_Looping" vcs="Git" />
   </component>
 </project>
