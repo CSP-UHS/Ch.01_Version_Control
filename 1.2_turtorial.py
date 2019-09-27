@@ -29,6 +29,8 @@ DeepSeaSnapper.forward(200)
 DeepSeaSnapper.backward(600)
 
 #Actual Tic-Tac-Toe Game
+DeepSeaSnapper.pencolor('Blue')
+
 DeepSeaSnapper.penup()
 DeepSeaSnapper._rotate(90)
 DeepSeaSnapper.forward(20)
