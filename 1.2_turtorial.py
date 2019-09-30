@@ -14,7 +14,7 @@ screen.bgcolor('black')  # colors the screen
 timmy.shape('circle')
 timmy.shapesize(6,3,2)
 timmy.pensize(5) # width of pen line
-timmy.speed(13) # speed of drawing. Go fast to not waste time.
+timmy.speed(12) # speed of drawing. Go fast to not waste time.
 timmy.hideturtle()
 timmy.penup()
 
