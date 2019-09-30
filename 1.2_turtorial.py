@@ -14,7 +14,7 @@ screen.bgcolor('black')  # colors the screen
 timmy.shape('circle')
 timmy.shapesize(6,3,2)
 timmy.pensize(5) # width of pen line
-timmy.speed(15) # speed of drawing. Go fast to not waste time.
+timmy.speed(13) # speed of drawing. Go fast to not waste time.
 timmy.hideturtle()
 timmy.penup()
 
@@ -73,36 +73,29 @@ timmy.stamp()
 timmy.setpos(40,206)  # right eye 3
 timmy.stamp()
 
-timmy.color('#F7083F')
+timmy.color('#F7083F') #Nose
 timmy.setpos(30,140)
 timmy.pendown()
-# timmy.begin_fill()
+timmy.begin_fill()
 timmy.goto(-20,140)
-timmy.goto(5,120)
-# timmy.goto(0,140)
+timmy.goto(5,110)
+timmy.goto(30,140)
+timmy.end_fill()
 
+timmy.penup()
+timmy.setpos(80,-60)
+timmy.pendown()
+timmy.pencolor('white')
+timmy.write('Peggy Y. Barely',font=("Arial", 20, "normal"))
 
 
 
 turtle.exitonclick() #Keeps pycharm window open
 
 
-'''
-
-timmythicc.goto(200,210)
-timmythicc.goto(88,145)
-timmythicc.penup()
-timmythicc.setpos(-50,185)
-timmythicc.pendown()
-timmythicc.goto(-200,210)
-timmythicc.goto(-88,145)
-timmythicc.penup()
-timmythicc.setpos(200,-300)
-timmythicc.pendown()
-timmythicc.pencolor('white')
-timmythicc.write('Peggy Y. Barely',font=("Arial", 20, "normal"))
 
 
 
 
-'''
+
+
