@@ -9,7 +9,7 @@ Define Cloning: Taking that copy from your profile and putting it on your comput
 
 Define Branching: Creating multiple different instances of the same code
 
-Define Committing: Saving the changes in your branch or branches
+Define Committing: Saving your whole repository
 
 Define Merging: Putting your branch or branches back into the original "master" code
 
