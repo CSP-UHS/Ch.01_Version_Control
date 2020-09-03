@@ -132,9 +132,9 @@ Tell me some interesting facts about yourself.
 import turtle
 alex = turtle.Turtle()
 alex.shape('turtle')
-alex.turtlesize(5)
-alex.goto(-200, 0)
-alex.write("             ⏁⊑⟟⌇ ⏁⎍⍀⏁⌰⟒ ⎎⍜⍀⋔ ⟟⌇ ⌰⟟⋔⟟⏁⟟⋏☌", font=("Arial", 25, "normal"))
+alex.turtlesize(4)
+alex.goto(-300, 0)
+alex.write("             ⊬⍜⎍⍀ ☊⍜⎅⟒ ⍙⍜⋏⏁ ⌿⍀⍜⏁⟒☊⏁ ⊬⍜⎍ ⎎⍜⍀⟒⎐⟒⍀ ⋔⏃⍀☊⎍⌇", font=("Arial", 20, "normal"))
 turtle.exitonclick()
 '''
 ------------------Student 14------------------
