@@ -248,9 +248,10 @@ turtle.exitonclick()
 
 
 ------------------Student 25------------------
-This is the Master Branch
-He He
-April 20 lmao
+This is the eat_me Branch
+Ha Ha
+I have never defecated
+Iowa State
 
 
 
