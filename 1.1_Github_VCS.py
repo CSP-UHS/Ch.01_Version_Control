@@ -193,9 +193,9 @@ Nathan Topolinski
 I am double jointed in both my hands
 Iowa!
 I have a little kitten named lefty
-
-
-
+I used to have a turtle named squrit
+I was in boy scouts for a few years
+I have a lazy eye
 
 ------------------Student 20------------------
 
