@@ -8,15 +8,15 @@ Tell me some interesting facts about yourself.
 
 
 ------------------Student 01------------------
-
-
-
-
-
-
-
-
-
+This is the master branch
+I know how to juggle
+I am left handed
+I like to run
+I like to play games
+I work at a grocery store
+I like to cook
+I know that mitochondria is the powerhouse of the cell
+I sometimes like to read
 ------------------Student 02------------------
 
 
