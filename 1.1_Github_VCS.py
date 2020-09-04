@@ -138,15 +138,15 @@ Tell me some interesting facts about yourself.
 
 
 ------------------Student 14------------------
-This is the Master Branch
-Me
-20-June-03
-
-
-
-
-
-
+This is the testing01 branch
+Joe Schmidt
+I like legend of zelda
+Iowa State
+chocolate covered coffee beans are pretty good
+but I'm not really a coffee person
+I think coding seems pretty fun
+Hopefully I'll be on the jedi council by the end of physics
+but no promises
 ------------------Student 15------------------
 
 
