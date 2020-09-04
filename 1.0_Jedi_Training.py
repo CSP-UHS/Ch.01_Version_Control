@@ -1,21 +1,21 @@
 '''
-Sign your name:________________
+Sign your name:Joe Schmidt
 
 
 
-Define Forking: 
+Define Forking: Creating a copy of a repository from one account on another account
 
-Define Cloning: 
+Define Cloning: Copying a repository from an account into the local storage of a device
 
-Define Branching:
+Define Branching: Creating a copy of the main code that can later be either merged or discarded
 
-Define Committing: 
+Define Committing: A save point
 
-Define Merging: 
+Define Merging: taking a branch of code and merging it back into the main code, overwriting the original with the changes of the new
 
-Define Pushing:
+Define Pushing: merging a branch of code into the master code (forcing it from the branch end)
 
-Define Pull Request:
+Define Pull Request: A request for your branch of code to be merged into the master code
 
 
 '''
