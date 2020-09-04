@@ -188,14 +188,14 @@ Tell me some interesting facts about yourself.
 
 
 ------------------Student 19------------------
-This is the Master Branch
-Me
-04/27/2005
-
-
-
-
-
+This is the testing1 Branch
+Nathan Topolinski
+I am double jointed in both my hands
+Iowa!
+I have a little kitten named lefty
+I used to have a turtle named squrit
+I was in boy scouts for a few years
+I have a lazy eye
 
 ------------------Student 20------------------
 
