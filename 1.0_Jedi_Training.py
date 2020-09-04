@@ -1,21 +1,21 @@
 '''
-Sign your name:________________
+Sign your name:Ryan Muetzel
 
 
 
-Define Forking: 
+Define Forking: taking repository from remote repository and putting it on your github
 
-Define Cloning: 
+Define Cloning: taking repository from github and copying it to your local computer
 
-Define Branching:
+Define Branching: Creating testing programs based off the master program to test new code
 
-Define Committing: 
+Define Committing: Saving the test code to the master code
 
-Define Merging: 
+Define Merging: Creating a final version of the master code
 
-Define Pushing:
+Define Pushing: taking new modified repository from local computer and putting it on your github
 
-Define Pull Request:
+Define Pull Request: asking the scrum master to take the new repository
 
 
 '''
