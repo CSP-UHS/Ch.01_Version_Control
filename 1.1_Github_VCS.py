@@ -9,9 +9,9 @@ Tell me some interesting facts about yourself.
 
 ------------------Student 01------------------
 This is the testing1 branch
-I know how to juggle
 Ryan Mullins
-I like to run (new commitment)
+I like to run
+Iowa State
 I like to play games
 I work at a grocery store
 I like to cook
