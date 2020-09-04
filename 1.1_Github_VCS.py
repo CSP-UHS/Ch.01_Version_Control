@@ -171,7 +171,7 @@ Tell me some interesting facts about yourself.
 This is the testing1 branch
 Jacob Walters
 I do models as a hobby
-I have 2 dogs
+Iowa State
 I'm done
 
 
