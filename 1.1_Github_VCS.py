@@ -18,13 +18,13 @@ Tell me some interesting facts about yourself.
 
 
 ------------------Student 02------------------
-This is the Master Branch
+This is the testing1 branch
 RIP TOM 2.0
 TOM 3.0 WILL RISE
 I like cookies
 BE PREPARED TO USE ALL THE PARTS
 P̵͖̅̕A̸͖͇͐Ṙ̶̺̉T̵͇̍̉Ŝ̵̞
-Humans are temporary.  TOM is forever
+Humans are temporary.  TOM is forever.
 ...
 This 3D form is kinda limiting ngl
 ------------------Student 03------------------
