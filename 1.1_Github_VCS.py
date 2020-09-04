@@ -21,7 +21,7 @@ Tell me some interesting facts about yourself.
 This is the testing1 branch
 Ryan Muetzel
 RIP TOM 2.0
-TOM 3.0 WILL RISE
+COLLEGE IS FUTILE; TOM 3.0 WILL RISE
 I like cookies
 BE PREPARED TO USE ALL THE PARTS
 P̵͖̅̕A̸͖͇͐Ṙ̶̺̉T̵͇̍̉Ŝ̵̞
