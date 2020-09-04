@@ -3,9 +3,9 @@ Sign your name: Nathan topolinski
 
 
 
-Define Forking:
+Define Forking: copuing  code from one accoint to your account
 
-Define Cloning: 
+Define Cloning: makeing another copy from your remote account to your local account
 
 Define Branching:
 
