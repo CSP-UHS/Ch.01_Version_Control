@@ -16,7 +16,7 @@ I like to play games
 I work at a grocery store
 I like to cook
 I know that mitochondria is the powerhouse of the cell
-I sometimes like to read
+My favorite color is red
 ------------------Student 02------------------
 
 
