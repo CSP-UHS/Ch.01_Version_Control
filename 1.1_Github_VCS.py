@@ -25,7 +25,7 @@ I like cookies
 BE PREPARED TO USE ALL THE PARTS
 P̵͖̅̕A̸͖͇͐Ṙ̶̺̉T̵͇̍̉Ŝ̵̞
 Humans are temporary.  TOM is forever
-...
+12/20/02
 This 3D form is kinda limiting ngl
 ------------------Student 03------------------
 
