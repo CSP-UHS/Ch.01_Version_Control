@@ -80,7 +80,7 @@ Tell me some interesting facts about yourself.
 ------------------Student 08------------------
 Me
 my favorite color is red
-
+June 7, 2003
 
 
 
