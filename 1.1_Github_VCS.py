@@ -108,10 +108,12 @@ Tell me some interesting facts about yourself.
 
 
 ------------------Student 11------------------
-Me
-My favorite color is purple
-May 20
-a new line
+James Hmar
+I need 9 hours of sleep to function
+my favorite color is purple
+I like chocolate
+I like yogurt
+
 
 
 
