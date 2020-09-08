@@ -99,7 +99,7 @@ Tell me some interesting facts about yourself.
 
 ------------------Student 10------------------
 bryce alan getz
-
+I've got a stick shift car
 
 
 
