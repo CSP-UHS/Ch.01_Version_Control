@@ -100,15 +100,13 @@ Tell me some interesting facts about yourself.
 ------------------Student 10------------------
 bryce alan getz
 I've got a stick shift car
-my fav color is blue
-
-
-
-
-
-
-
-
+my fav color is purple
+I would like to go into programming or college.
+I am learning how to drift in my car.
+ive got a 2013 Ford Fiesta
+i have five sisters
+i am not good at homework
+i am german
 ------------------Student 11------------------
 
 
