@@ -100,6 +100,7 @@ Tell me some interesting facts about yourself.
 ------------------Student 10------------------
 Bryce Getz
 my favorite color is purple
+July 9th
 
 
 
