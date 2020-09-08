@@ -101,6 +101,7 @@ Tell me some interesting facts about yourself.
 Bryce Getz
 my favorite color is purple
 July 9th
+whatever
 
 
 
