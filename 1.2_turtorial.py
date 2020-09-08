@@ -8,28 +8,61 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
+
+draw = turtle.Turtle()
+draw.shape ("turtle")
+
+draw.penup()
+draw.goto(-100,-90)
+draw.pendown()
+draw.color("blue")
+draw.begin_fill()
+draw.forward(300)
+draw.left(90)
+draw.forward(200)
+draw.left(90)
+draw.forward(300)
+draw.left(90)
+draw.forward(200)
+draw.end_fill()
+
+draw.penup()
+draw.goto(-20,-90)
+draw.color("yellow")
+draw.left(180)
+draw.begin_fill()
+draw.pendown()
+draw.forward(80)
+draw.left(90)
+draw.forward(80)
+draw.right(90)
+draw.forward(40)
+draw.right(90)
+draw.forward(80)
+draw.left(90)
+draw.forward(80)
+draw.right(90)
+draw.forward(40)
+draw.right(90)
+draw.forward(80)
+draw.left(90)
+draw.forward(180)
+draw.right(90)
+draw.forward(40)
+draw.right(90)
+draw.forward(180)
+draw.left(90)
+draw.forward(80)
+draw.right(90)
+draw.forward(40)
+draw.end_fill()
+
+draw.penup()
+draw.color("black")
+draw.goto(-150, -150)
+draw.right(180)
 
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+
+draw.write('      Ryan Mullins',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
