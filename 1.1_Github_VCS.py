@@ -88,10 +88,10 @@ Tell me some interesting facts about yourself.
 
 
 ------------------Student 09------------------
-
-
-
-
+Sam Cobb
+My favorite color is blue
+I live in iowa
+I like to play videogames
 
 
 
