@@ -1,21 +1,21 @@
 '''
-Sign your name:________________
+Sign your name: Ryan Mullins
 
 
 
-Define Forking: 
+Define Forking: Taking code from a central repository onto your remote account.
 
-Define Cloning: 
+Define Cloning: Taking the code from your remote account to your computer.
 
-Define Branching:
+Define Branching: To make a copy of your code for separate development.
 
-Define Committing: 
+Define Committing: Saving a set of changes to code.
 
-Define Merging: 
+Define Merging: Combining branches.
 
-Define Pushing:
+Define Pushing: To bring your code from your computer to your remote account.
 
-Define Pull Request:
+Define Pull Request: To request to have your code brought in by scrum lord.
 
 
 '''
