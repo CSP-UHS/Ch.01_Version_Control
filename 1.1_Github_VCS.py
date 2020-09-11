@@ -210,10 +210,10 @@ Tell me some interesting facts about yourself.
 ------------------Student 21------------------
 This is the testing1 Branch
 Gerardo Lopez
-I like history from Roman Empire (or republic technically) to modern age
+I like history from Roman Empire (or from the republic technically) to modern age
 Neither
 I know a little bit of HTML
-
+I'm done
 
 
 

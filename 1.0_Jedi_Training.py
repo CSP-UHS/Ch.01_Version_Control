@@ -4,7 +4,7 @@ Sign your name:________________
 
 
 Define Forking: 
-
+ Copying from an organization
 Define Cloning: 
 
 Define Branching:
