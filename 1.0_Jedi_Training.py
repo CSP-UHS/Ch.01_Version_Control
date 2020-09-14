@@ -3,19 +3,19 @@ Sign your name: Aaron Caltrider
 
 
 
-Define Forking: 
+Define Forking: An operation where a process creates a copy of itself.
 
-Define Cloning: 
+Define Cloning: Object copying by a method or copy factory function.
 
-Define Branching:
+Define Branching: An instruction in a computer program that can cause a computer to begin executing a different instruction sequence.
 
-Define Committing: 
+Define Committing: Making of a set of tentative changes permanent.
 
-Define Merging: 
+Define Merging: The process of combining the various versions of a file or folder.
 
-Define Pushing:
+Define Pushing: A data transfer initiated by the server.
 
-Define Pull Request:
+Define Pull Request: A method of submitting contributions to an open development project.
 
 
 '''
