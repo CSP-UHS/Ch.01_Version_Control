@@ -16,19 +16,21 @@ face.speed(10)  # speed of drawing. Go fast to not waste time.
 face.color("gold")
 face.circle(100)  #head
 face.penup()
-face.setpos(50,185) #right ear
+face.setpos(25,125) #right ear
 face.pendown()
-face.goto(200,210)
-face.goto(88,145)
+face.goto(25,150)
 face.penup()
-face.setpos(-50,185)  #left ear
+face.setpos(-25,125)  #left ear
 face.pendown()
-face.goto(-200,210)
-face.goto(-88,145)
+face.goto(-25,150)
 face.penup()
-face.setpos(200,-300)
+face.setpos(-50,50)
 face.pendown()
+face.goto(50,50)
 face.pencolor('#00FF00')
+face.penup()
+face.goto(100, -50)
+
 
 
 face.write('Aaron Caltrider',font=("Arial", 16, "normal")) # signs your name to your art
