@@ -8,9 +8,8 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-
 tim = turtle.Turtle()
-tim.shape("turtle")
+tim.shape("square")
 
 def LIE():  # the cake is a lie
     tim.penup()
@@ -138,7 +137,7 @@ def candle():
 
 def sign():
     tim.color("white")  # box
-    tim.goto(190, -190)
+    tim.goto(270, -210)
     tim.seth(90)
     tim.pendown()
     tim.begin_fill()
@@ -164,10 +163,11 @@ def sign():
     tim.right(90)
     tim.back(1)
     tim.write("Joe Schmidt",font=("times new roman",16,"normal"))
-    tim.forward(60)  # moves tim off screen
+    tim.back(9)         # moves tim next to name
+    tim.right(90)
+    tim.forward(15)
 
 tim.speed(20)
-
 bake()
 tim.penup()
 tim.goto(42, 60)  # places cherries
@@ -190,5 +190,4 @@ candle()
 LIE()
 sign()
 
-#yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
