@@ -68,15 +68,15 @@ Tell me some interesting facts about yourself.
 
 
 ------------------Student 07------------------
-
-
-
-
-
-
-
-
-
+This is the master branch
+Tom Dau
+August 31, 2003
+If I disappear, blame Ryan Muetzel
+The temporary online ruined my sleep schedule
+It also messed up my schoolwork cycle
+How Should I Do_A_Space_In-Python-?
+Recomend me new music my ears are getting bored
+I will hit challenger in League
 ------------------Student 08------------------
 
 
