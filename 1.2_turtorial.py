@@ -8,28 +8,52 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
+bruh = turtle.Turtle()
+bruh.shape('turtle')
 
-
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
-turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
+bruh.pendown()
+bruh.forward(200)
+bruh.left(120)
+bruh.forward (200)
+bruh.left(120)
+bruh.forward(200)               # Inner triangle finished
+bruh.left(120)
+bruh.forward(250)
+bruh.left(120)
+bruh.forward(350)               # Inner triangle, but extended
+bruh.left(180)
+bruh.forward(350)
+bruh.right(120)
+bruh.forward(250)               # Backtrack to inner triangle
+bruh.left(60)
+bruh.forward(50)
+bruh.left(120)
+bruh.forward(350)               # Inner triangle, but extended, but again
+bruh.left(180)
+bruh.forward(350)               # WOAH WE'RE HALFWAY THERE
+bruh.right(120)
+bruh.forward(250)               # Backtrack to inner triangle, but again
+bruh.left(60)
+bruh.forward(50)
+bruh.left(120)
+bruh.forward(350)               # Inner triangle, but extended, but again, but again
+bruh.left(120)
+bruh.forward(400)               #Backtra- SIKE WE MOVING ON OUT
+bruh.left(60)
+bruh.forward(50)
+bruh.left(60)
+bruh.forward(400)
+bruh.left(60)
+bruh.forward(50)
+bruh.left(60)
+bruh.forward(400)
+bruh.left(60)
+bruh.forward(50)                # POG
+bruh.penup()
+bruh.goto(100, -150)
+bruh.write("Penrose Triangle")  # POGROSE TRIANGLE
+bruh.goto(100, -175)
+bruh.write("Tom Dau")
+bruh.goto(100, -200)
+turtle.Screen().exitonclick()
+#done
