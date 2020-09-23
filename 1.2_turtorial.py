@@ -11,6 +11,9 @@ import turtle
 yoda=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
 screen.bgcolor('black') # colors the screen
+
+
+"""""
 yoda.pensize(3) # width of pen line
 yoda.speed(10)  # speed of drawing. Go fast to not waste time.
 yoda.color("#00FF00")
@@ -29,6 +32,7 @@ yoda.penup()
 yoda.setpos(200,-300)
 yoda.pendown()
 yoda.pencolor('#00FF00')
+"""
 
 
 yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
