@@ -8,28 +8,27 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
+goal=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
+screen.bgcolor('white') # colors the screen
+goal.pensize(3) # width of pen line
+goal.speed(10)  # speed of drawing. Go fast to not waste time.
+goal.color("#00FF00")
+goal.penup(-200,0) #horizon
+goal.setpos()
+goal.pendown(-200,0)
+goal.goto(200-,0)
+goal.goto()
+goal.penup()
+goal.setpos()
+goal.pendown()
+goal.goto()
+goal.goto()
+goal.penup()
+goal.setpos()
+goal.pendown()
+goal.pencolor('#00FF00')
 
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+yoda.write('Bryce Getz',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
