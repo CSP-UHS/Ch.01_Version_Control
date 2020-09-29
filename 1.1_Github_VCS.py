@@ -28,15 +28,15 @@ Tell me some interesting facts about yourself.
 
 
 ------------------Student 03------------------
+kylah hawkins
+junior
+two dogs
 
+hope in action
 
+five below employee
 
-
-
-
-
-
-
+favorite color: purple
 ------------------Student 04------------------
 
 
