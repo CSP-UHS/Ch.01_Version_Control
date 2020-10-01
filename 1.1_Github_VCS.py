@@ -159,7 +159,7 @@ Tell me some interesting facts about yourself.
 
 ------------------Student 16------------------
 this is whack
-
+what is my favorite color
 
 
 
