@@ -167,6 +167,8 @@ I have no children
 
 I have no children beacause I am only 17
 
+My shoe size is 10
+
 
 
 
