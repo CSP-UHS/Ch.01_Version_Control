@@ -161,6 +161,8 @@ Tell me some interesting facts about yourself.
 this is whack
 my fav color is blue
 
+my birthday is november 23rd
+
 
 
 
