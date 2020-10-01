@@ -173,8 +173,11 @@ my favorite kind of branch is a maple branch
 
 Sike it is actually birch. Cuz Birch Branch. haha both B. BBBBBBB
 
-bumble bees. They pollinate. Know you know.
-Speaking of know, do you know The muffin man?
+bumble bees. They pollinate. Now you know.
+
+
+
+NO I DO NOT KNOW THE MUFFIN MAN!!!
 ------------------Student 17------------------
 
 
