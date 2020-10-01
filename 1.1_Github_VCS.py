@@ -178,6 +178,8 @@ i dont think i understand this
 
 I created like 43 branches I should have a whole tree by now
 
+why do my branches not be merging. im just tryna make a birch tree :(
+
 
 NO I DO NOT KNOW THE MUFFIN MAN!!!
 ------------------Student 17------------------
