@@ -173,7 +173,12 @@ my favorite kind of branch is a maple branch
 
 Sike it is actually birch. Cuz Birch Branch. haha both B. BBBBBBB
 
-bumble bees. They pollinate. Now you know.
+bumble bees. They pollinate. Now you know. buzz buzz. Buzz lightyear. What a loser. To infinty and beyond? More like to an asymptote of y=1.
+Ha cause he goes infintely but he doesnt actually get there ever because he suskcs. Anyways what a dummy. you can not go past inifity. I have tried
+
+
+
+
 
 
 
