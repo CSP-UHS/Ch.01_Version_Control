@@ -43,11 +43,14 @@ impossible_triangle3.penup()
 impossible_triangle3.goto(25,-80)
 impossible_triangle3.pendown()
 impossible_triangle3.goto(-18,5)
-impossible_triangle3.goto(-42,50)
+impossible_triangle3.goto(-50,70)
+impossible_triangle3.goto(-200,-200)
 impossible_triangle.goto(-200,-200)
+impossible_triangle.penup()
+impossible_triangle.goto(200,-300)
 impossible_triangle.pendown()
 impossible_triangle.pencolor('black')
 
 
-impossible_triangle.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+impossible_triangle.write('nate T.',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
