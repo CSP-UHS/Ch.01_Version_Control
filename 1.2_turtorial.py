@@ -8,28 +8,45 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
+impossible_triangle=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
+screen.bgcolor('white') # colors the screen
+impossible_triangle.pensize(3) # width of pen line
+impossible_triangle.speed(10)  # speed of drawing. Go fast to not waste time.
+impossible_triangle.color('black')
+impossible_triangle.penup()
+impossible_triangle.goto(-200,-200)
+impossible_triangle.pendown()
+impossible_triangle.goto(200,-200)
+impossible_triangle.goto(253,-130)
+impossible_triangle.goto(40,200)
+impossible_triangle.goto(-40,200)
+impossible_triangle.goto(-253,-130)
+impossible_triangle2=turtle.Turtle()
+impossible_triangle2.pensize(3)
+impossible_triangle2.speed(10)
+impossible_triangle2.penup()
+impossible_triangle2.goto(-40,200)
+impossible_triangle2.pendown()
+impossible_triangle2.goto(150,-80)
+impossible_triangle2.goto(-70,-80)
+impossible_triangle2.goto(-18,5)
+impossible_triangle2.goto(25,-80)
+impossible_triangle2.goto(-18,5)
+impossible_triangle2.goto(-70,-80)
+impossible_triangle2.goto(-100,-130)
+impossible_triangle2.goto(253,-130)
+impossible_triangle3=turtle.Turtle()
+impossible_triangle3.pensize(3)
+impossible_triangle3.speed(10)
+impossible_triangle3.penup()
+impossible_triangle3.goto(25,-80)
+impossible_triangle3.pendown()
+impossible_triangle3.
+impossible_triangle.goto(-200,-200)
+impossible_triangle.pendown()
+impossible_triangle.pencolor('black')
 
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+impossible_triangle.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
