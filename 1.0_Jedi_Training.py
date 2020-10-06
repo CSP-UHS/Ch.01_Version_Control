@@ -1,21 +1,21 @@
 '''
-Sign your name:________________
+Sign your name:Lalrinpuia Hmar
 
 
 
-Define Forking: 
+Define Forking: Putting the assignment to your folder in Github
 
-Define Cloning: 
+Define Cloning: basically downloading
 
-Define Branching:
+Define Branching: Alternate version of your assignment that you can use to test things
 
-Define Committing: 
+Define Committing: saving your data
 
-Define Merging: 
+Define Merging: basically putting data together
 
-Define Pushing:
+Define Pushing: uploading assignment back to your folder to replace the older version
 
-Define Pull Request:
+Define Pull Request: asking teacher to accept the assignment to grade it.
 
 
 '''
