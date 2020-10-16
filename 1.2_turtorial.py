@@ -7,33 +7,70 @@ The last line keeps the window open until you click to close.
 Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=turtle
 
 '''
+
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
+jake = turtle.Turtle()
+screen = turtle.Screen() # makes a screen object
+screen.bgcolor('sky blue') # colors the screen
 
 
-"""""
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
-"""
+jake.pensize(10) # width of pen line
+jake.speed(10)  # speed of drawing. Go fast to not waste time.
+jake.color("#9AFFF3", "#7affb4")
+jake.begin_fill()
+jake.circle(200)
+jake.end_fill()
+jake.penup()
+
+jake.color("#9AFFF3", "#9AFFF3")
+jake.setpos(0, 25)
+jake.pendown()
+jake.begin_fill()
+jake.circle(15)
+jake.end_fill()
+jake.penup()
+jake.setpos(15, 100)
+jake.pendown()
+jake.begin_fill()
+jake.circle(25)
+jake.end_fill()
+jake.penup()
+jake.setpos(-15, 100)
+jake.pendown()
+jake.begin_fill()
+jake.circle(12)
+jake.end_fill()
+jake.penup()
+
+jake.setpos(75, 205)
+jake.pendown()
+jake.circle(10)
+jake.circle(100, 100)
+jake.penup()
+jake.setpos(15,100)
+jake.pendown()
+jake.circle(10)
+jake.penup()
+jake.setpos(-75, 205)
+jake.pendown()
+jake.circle(10)
 
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+jake.penup()
+jake.setpos(50, 250) #right ear
+jake.pendown()
+jake.goto(200, 210)
+jake.goto(88, 145)
+jake.penup()
+jake.setpos(-50, 250)  #left ear
+jake.pendown()
+jake.goto(-200, 210)
+jake.goto(-88, 145)
+jake.penup()
+jake.setpos(200, -300)
+jake.pendown()
+
+
+
+jake.write('Jake',font=("Arial", 56, "bold")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
