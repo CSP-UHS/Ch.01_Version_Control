@@ -21,10 +21,12 @@ yoda.color("#6E0DD0")
 yoda.goto(0,-200)
 yoda.pendown()
 yoda.begin_fill()
-yoda.circle(200)  #Circle
+yoda.circle(200)  # First Circle
+yoda.end_fill()
 yoda.penup()
 yoda.goto(0,-250)
 yoda.pd()
+yoda.begin_fill()
 yoda.circle(250)
 yoda.end_fill()
 
@@ -54,7 +56,7 @@ yoda.pu()
 
 yoda.goto(-25,200)
 yoda.pd()
-yoda.color("#0033FF")
+yoda.color("#00FFFF")
 yoda.begin_fill()
 yoda.goto(-25,-200) #Strait main line
 yoda.goto(25,-200)
@@ -63,7 +65,7 @@ yoda.end_fill()
 
 yoda.up()
 
-yoda.color("#6E0DD0")
+yoda.color("#0099FF")
 yoda.goto(0,-200)
 yoda.pendown()
 yoda.begin_fill()
