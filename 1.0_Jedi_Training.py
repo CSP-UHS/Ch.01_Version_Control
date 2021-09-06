@@ -3,7 +3,7 @@ Sign your name:Gavin Clarkson
 
 
 
-Define Forking: making a copy of the teachers repository and putting on your account
+Define Forking: making a copy of the teachers repository
 
 Define Cloning: downloading a repository that you forked
 

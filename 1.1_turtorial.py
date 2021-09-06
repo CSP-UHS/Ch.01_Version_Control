@@ -8,28 +8,62 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
+
 yoda=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
 screen.bgcolor('black') # colors the screen
+
+yoda.penup()
 yoda.pensize(3) # width of pen line
 yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
+yoda.color("#FFFFFF")
+yoda.goto(0,100)
+yoda.pendown()  #head
+yoda.circle(50)
+yoda.goto(0,-100)
 yoda.penup()
-yoda.setpos(50,185) #right ear
+yoda.goto(0,50)
 yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
+yoda.goto(100,0)
+yoda.goto(0,50)
+yoda.goto(-100,0)
 yoda.penup()
-yoda.setpos(-50,185)  #left ear
+yoda.goto(0,-100)
 yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
+yoda.goto(50,-200)
+yoda.goto(0,-100)
+yoda.goto(-50,-200)
+yoda.penup()
+yoda.goto(0,150)
+yoda.pendown()
+yoda.goto(-5,135)
+yoda.goto(0,135)
+yoda.penup()
+yoda.goto(-20,155)
+yoda.pendown()
+yoda.circle(10)
+yoda.penup()
+yoda.goto(20,155)
+yoda.pendown()
+yoda.circle(10)
+yoda.penup()
+yoda.goto(-30,165)
+yoda.pendown()
+yoda.goto(-50,165)
+yoda.penup()
+yoda.goto(-10,165)
+yoda.pendown()
+yoda.goto(10,165)
+yoda.penup()
+yoda.goto(30,165)
+yoda.pendown()
+yoda.goto(50,165)
 yoda.penup()
 yoda.setpos(200,-300)
 yoda.pendown()
-yoda.pencolor('#00FF00')
+yoda.pencolor('#FF00FF')
 
 
 yoda.write('Gavin Clarkson',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
+yoda.penup()
