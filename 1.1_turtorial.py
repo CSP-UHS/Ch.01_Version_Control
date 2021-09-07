@@ -32,9 +32,12 @@ yoda.pendown()
 yoda.goto(-10,215)
 yoda.goto(10,210)
 yoda.penup()
-yoda.goto(0,180)
+yoda.goto(0,190)
 yoda.pendown()
-yoda.circle()
+yoda.forward(20)
+yoda.backward(40)
+yoda.penup()
+yoda.goto(0,170)
 
 
 
