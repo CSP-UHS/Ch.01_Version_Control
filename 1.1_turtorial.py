@@ -14,21 +14,28 @@ screen.bgcolor('black') # colors the screen
 yoda.pensize(3) # width of pen line
 yoda.speed(10)  # speed of drawing. Go fast to not waste time.
 yoda.color("#00FF00")
-yoda.circle(100)  #head
 yoda.penup()
-yoda.setpos(50,185) #right ear
+yoda.goto(0,170)
 yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
+yoda.circle(70)
 yoda.penup()
-yoda.setpos(-50,185)  #left ear
+yoda.goto(30,250)
 yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
+yoda.circle(10)
 yoda.penup()
-yoda.setpos(200,-300)
+yoda.goto(-30,250)
 yoda.pendown()
-yoda.pencolor('#00FF00')
+yoda.circle(10)
+yoda.penup()
+yoda.goto(0,225)
+yoda.pendown()
+yoda.goto(-10,215)
+yoda.goto(10,210)
+yoda.penup()
+yoda.goto(0,180)
+yoda.pendown()
+yoda.circle()
+
 
 
 yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
