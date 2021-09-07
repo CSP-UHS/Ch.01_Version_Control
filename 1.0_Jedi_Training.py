@@ -1,21 +1,20 @@
 '''
-Sign your name:________________
+Sign your name:Landen Thompson
 
 
 
-Define Forking: 
+Define Forking: Making a copy
 
-Define Cloning: 
+Define Cloning: downloads from github to your computer
 
-Define Branching:
+Define Branching: adding new version of file to edit without altering master
 
-Define Committing: 
+Define Committing: Saving changes to a file
 
-Define Merging: 
+Define Merging: Putting 2 files together in 1
 
-Define Pushing:
+Define Pushing: sends edited version from computer to github
 
-Define Pull Request:
-
+Define Pull Request: Request to merge your file with main file
 
 '''
