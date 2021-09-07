@@ -12,10 +12,21 @@ yoda=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
 screen.bgcolor('black') # colors the screen
 yoda.pensize(7) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
+yoda.speed(11)  # speed of drawing. Go fast to not waste time.
 yoda.color("#00FFFF")
 
 yoda.penup()
+
+yoda.begin_fill()
+yoda.goto(-400,400)
+yoda.pd()
+yoda.goto(-400,-400)
+yoda.goto(400,-400)
+yoda.goto(400,400)
+yoda.goto(-400,400)
+yoda.end_fill()
+
+yoda.pu()
 
 yoda.color("#6E0DD0")
 yoda.goto(0,-200)
@@ -80,8 +91,8 @@ yoda.pu()
 
 yoda.setpos(200,-300)  #Name
 yoda.pendown()         #Name
-yoda.pencolor('#00FF00')#Name
+yoda.pencolor('#000000')#Name
 
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+yoda.write('Bryce Huey',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
