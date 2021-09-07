@@ -1,21 +1,21 @@
 '''
-Sign your name:________________
+Sign your name:__Aidan___________
 
 
 
-Define Forking: 
+Define Forking: Copying something
 
-Define Cloning: 
+Define Cloning: Downloading
 
-Define Branching:
+Define Branching: Creating a separate workspace for the same code
 
-Define Committing: 
+Define Committing: Saving
 
-Define Merging: 
+Define Merging: Combining two branches
 
-Define Pushing:
+Define Pushing: Moving something to somewhere else
 
-Define Pull Request:
+Define Pull Request: Asking for someone to take your code and use it.
 
 
 '''
