@@ -39,7 +39,17 @@ yoda.backward(40)
 yoda.penup()
 yoda.goto(0,170)
 
-
+yoda.pendown()
+yoda.pensize(8)
+yoda.goto(0,0)
+yoda.penup()
+yoda.goto(0,120)
+yoda.pendown()
+yoda.goto(-50,150)
+yoda.penup()
+yoda.goto(0,120)
+yoda.pendown()
+yoda.goto(50,150)#arms
 
 yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
