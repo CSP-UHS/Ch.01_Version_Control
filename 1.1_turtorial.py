@@ -10,10 +10,10 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 import turtle
 yoda=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
+screen.bgcolor('blue') # colors the screen
 yoda.pensize(3) # width of pen line
 yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
+yoda.color("white")
 yoda.penup()
 yoda.goto(0,170)
 yoda.pendown()
@@ -51,5 +51,22 @@ yoda.goto(0,120)
 yoda.pendown()
 yoda.goto(50,150)#arms
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+yoda.penup()
+yoda.goto(0,0)
+yoda.pendown()
+yoda.pensize(13)
+yoda.goto(-70,-150)
+yoda.penup()
+yoda.goto(0,0)
+yoda.pendown()
+yoda.goto(70,-150)#legs
+
+
+yoda.penup()
+yoda.goto(200,-150)
+
+
+
+yoda.write("matthew",font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
+#all done
