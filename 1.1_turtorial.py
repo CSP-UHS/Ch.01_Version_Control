@@ -10,26 +10,39 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 import turtle
 yoda=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
+screen.bgcolor("purple") # colors the screen
 yoda.pensize(3) # width of pen line
 yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
+yoda.color("#000000")
+yoda.begin_fill()
+yoda.circle(150)   #head
+yoda.end_fill()
+yoda.speed(5)
 yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
 yoda.penup()
-yoda.setpos(-50,185)  #left ear
+yoda.setpos(50,185) #ring finger hole
 yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
+yoda.color("#800080")
+yoda.begin_fill()
+yoda.circle(20)
+yoda.end_fill()
+yoda.penup()
+yoda.setpos(-20,185)  #Middle finger hole
+yoda.pendown()
+yoda.begin_fill()
+yoda.circle(20)
+yoda.end_fill()
+yoda.penup()
+yoda.setpos(0,50)
+yoda.pendown()
+yoda.begin_fill()
+yoda.circle(25)    #thumb hole
+yoda.end_fill()
 yoda.penup()
 yoda.setpos(200,-300)
 yoda.pendown()
 yoda.pencolor('#00FF00')
 
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+yoda.write('Zachary Blum',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
