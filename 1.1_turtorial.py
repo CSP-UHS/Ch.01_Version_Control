@@ -8,28 +8,62 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
+penguin=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
 screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
+penguin.pensize(2) # width of pen line
+penguin.speed(5)  # speed of drawing. Go fast to not waste time.
+penguin.color("#FFFFFF")
+penguin.circle(100)  #head
+penguin.penup()
+penguin.setpos(75,35) #beak
+penguin.pendown()
+penguin.goto(200,55)
+penguin.goto(96,125)
+penguin.penup()
+penguin.goto(50,110)  #eye
+penguin.pendown()
+penguin.circle(25)
+penguin.penup()
+penguin.goto(50,-236)
+penguin.pendown()
+def talloval(r):
+    penguin.left(45)
+    for loop in range(2):
+        penguin.circle(r,90)
+        penguin.circle(r/2,90)
+talloval(150)
+penguin.penup()
+penguin.goto(200,-150)
+penguin.pendown()
+talloval(70)
+penguin.penup()
+penguin.goto(-110,-83)
+penguin.pendown()
+talloval(70)
+penguin.penup()
+penguin.goto(-73,-220)
+penguin.pendown()
+penguin.goto(-73,-275)
+penguin.goto(-86,-290)
+penguin.goto(-73,-275)
+penguin.goto(-73,-290)
+penguin.goto(-73,-275)
+penguin.goto(-60,-290)
+penguin.penup()
+penguin.goto(67,-220)
+penguin.pendown()
+penguin.goto(67,-275)
+penguin.goto(54,-290)
+penguin.goto(67,-275)
+penguin.goto(67,-290)
+penguin.goto(67,-275)
+penguin.goto(80,-290)
+penguin.penup()
+penguin.setpos(200,-300)
+penguin.pendown()
+penguin.pencolor('#900000')
 
 
-yoda.write('Denis Toric',font=("Arial", 16, "normal")) # signs your name to your art
+penguin.write('Denis Toric',font=("Times New Roman", 32, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
