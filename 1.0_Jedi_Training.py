@@ -3,19 +3,19 @@ Sign your name:________________
 
 
 
-Define Forking: 
+Define Forking: take a software program to make another program
 
-Define Cloning: 
+Define Cloning: setting up a program to another computer
 
-Define Branching:
+Define Branching: an instruction for a computer usually to start a sequence
 
-Define Committing: 
+Define Committing: to mark something permanent
 
-Define Merging: 
+Define Merging: combining two or more groups of data
 
-Define Pushing:
+Define Pushing: the delivery of inforamtion from another computer
 
-Define Pull Request:
+Define Pull Request: to submit a program to a software project so the developer can see everyones work
 
 
 '''
