@@ -8,28 +8,57 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen("circle") # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(8) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("pink")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('pink')
+
+tina = turtle.Turtle()
+tommy = turtle.Turtle()
+
+tina.color('blue')
+tommy.color('green')
+
+tina.shape('turtle')
+tommy.shape('turtle')
+
+tina.begin_fill()
+tina.goto(200,0)
+tina.goto(200,-200)
+tina.goto(-200,-200)
+tina.goto(-200,0)
+tina.goto(0,0)
+tina.end_fill()
+
+tommy.penup()
+tommy.goto(-70,100)
+tommy.write("Tina, let's Make a picture together!")
+tommy.goto(120,130)
 
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+tina.penup()
+tina.color('white')
+tina.goto(-40,-100)
+tina.write("Alright, I'm ready!!")
+tina.goto(0,-130)
+tina.pendown()
+
+tommy.penup()
+tommy.begin_fill()
+tommy.goto(120,130)
+tommy.color("yellow")
+tommy.pendown()
+tommy.circle(30)
+tommy.penup()
+tommy.end_fill()
+tommy.goto(70,170)
+tommy.pendown()
+tommy.goto(30,170)
+tommy.penup()
+tommy.goto(120,110)
+tommy.pendown()
+tommy.goto(120,70)
+tommy.penup()
+tommy.goto(170,170)
+tommy.pendown()
+tommy.goto(200,170)
+
+
+tommy.write('Ava Binstock',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
