@@ -158,5 +158,5 @@ tina. goto(-150,-150)
 tina.color("black")
 
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+tina.write('Aidan Zimmerman',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
