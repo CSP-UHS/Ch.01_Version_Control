@@ -7,6 +7,7 @@ The last line keeps the window open until you click to close.
 Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=turtle
 
 '''
+
 import turtle
 tina = turtle.Turtle()
 tommy = turtle.Turtle()
