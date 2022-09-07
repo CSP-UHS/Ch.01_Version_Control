@@ -12,7 +12,7 @@ yoda=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
 screen.bgcolor('black') # colors the screen
 yoda.pensize(1) # width of pen line
-yoda.speed(13)  # speed of drawing. Go fast to not waste time.
+yoda.speed(10)  # speed of drawing. Go fast to not waste time.
 yoda.color("white")
 yoda.penup()
 yoda.goto(0,-150)
@@ -68,7 +68,71 @@ yoda.begin_fill()
 yoda.goto(-150,0)
 yoda.goto(-25,-5)
 yoda.end_fill()
+yoda.penup()
+yoda.color("white")
+yoda.penup() #second star 1
+yoda.goto(90,90)
+yoda.pendown()
+yoda.begin_fill()
+yoda.goto(40,20)
+yoda.goto(20,40)
+yoda.goto(90,90)
+yoda.end_fill()
+yoda.penup() #second star 2
+yoda.goto(90,-90)
+yoda.pendown()
+yoda.begin_fill()
+yoda.goto(40,-20)
+yoda.goto(20,-40)
+yoda.goto(90,-90)
+yoda.end_fill()
+yoda.penup() #second star 3
+yoda.goto(-90,-90)
+yoda.pendown()
+yoda.begin_fill()
+yoda.goto(-40,-20)
+yoda.goto(-20,-40)
+yoda.goto(-90,-90)
+yoda.end_fill()
+yoda.penup() #second star 4
+yoda.goto(-90,90)
+yoda.pendown()
+yoda.begin_fill()
+yoda.goto(-40,20)
+yoda.goto(-20,40)
+yoda.goto(-90,90)
+yoda.end_fill()
 
+
+
+yoda.color("black")
+yoda.pensize(3)
+yoda.penup()
+yoda.goto(30,-30)
+yoda.pendown()
+yoda.goto(180,0)
+yoda.goto(30,30)
+yoda.goto(0,180)
+yoda.goto(-30,30)
+yoda.goto(-180,0)
+yoda.goto(-30,-30)
+yoda.goto(0,-180)
+yoda.goto(30,-30)
+
+yoda.color("white")
+yoda.penup()
+yoda.goto(105,105)
+yoda.right(45)
+
+import turtle
+ship=turtle.Turtle()
+screen=turtle.Screen() # makes a screen object
+ship.pensize(1) # width of pen line
+ship.color("white")
+ship.speed(13)
+ship.penup()
+ship.goto(-105,-105)
+ship.left(135)
 
 
 yoda.write('Matthew Fletcher',font=("Arial", 16, "normal")) # signs your name to your art
