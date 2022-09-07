@@ -11,25 +11,65 @@ import turtle
 yoda=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
 screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
+yoda.pensize(1) # width of pen line
+yoda.speed(13)  # speed of drawing. Go fast to not waste time.
+yoda.color("white")
 yoda.penup()
-yoda.setpos(50,185) #right ear
+yoda.goto(0,-150)
 yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
+yoda.circle(150)
 yoda.penup()
-yoda.setpos(-50,185)  #left ear
+yoda.goto(0,-110)
 yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
+yoda.circle(110)
 yoda.penup()
-yoda.setpos(200,-300)
+yoda.goto(0,-180)  #main star
 yoda.pendown()
-yoda.pencolor('#00FF00')
+yoda.begin_fill()
+yoda.goto(30,-30)
+yoda.goto(180,0)
+yoda.goto(30,30)
+yoda.goto(0,180)
+yoda.goto(-30,30)
+yoda.goto(-180,0)
+yoda.goto(-30,-30)
+yoda.goto(0,-180)
+yoda.end_fill()
+yoda.penup()
+yoda.goto(0,-25) #details
+yoda.color("black")
+yoda.pensize(3)
+yoda.pendown()
+yoda.circle(25)
+yoda.pensize(1)
+yoda.begin_fill()
+yoda.goto(-5,-25)
+yoda.goto(0,-150)
+yoda.goto(5,-25)
+yoda.end_fill()
+yoda.penup()
+yoda.goto(25,-5)
+yoda.pendown()
+yoda.begin_fill()
+yoda.goto(150,0)
+yoda.goto(25,5)
+yoda.end_fill()
+yoda.penup()
+yoda.goto(5,25)
+yoda.pendown()
+yoda.begin_fill()
+yoda.goto(0,150)
+yoda.goto(-5,25)
+yoda.end_fill()
+yoda.penup()
+yoda.goto(-25,5)
+yoda.pendown()
+yoda.begin_fill()
+yoda.goto(-150,0)
+yoda.goto(-25,-5)
+yoda.end_fill()
 
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+
+yoda.write('Matthew Fletcher',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
