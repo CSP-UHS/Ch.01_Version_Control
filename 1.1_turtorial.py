@@ -27,5 +27,7 @@ for i in range(280) :
     matt.pendown()
     matt.color(str(clrlist[i % 6]))
 
-matt.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+matt.penup()
+matt.goto(-250,-250)
+matt.write('Matthew Avis',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
