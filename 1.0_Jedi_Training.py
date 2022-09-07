@@ -1,21 +1,21 @@
 '''
-Sign your name:________________
+Sign your name: Arianna Lear
 
 
 
-Define Forking: 
+Define Forking: exporting a section of a code out of the master code an into its own file.
 
-Define Cloning: 
+Define Cloning: Copying a file of code into a new identical file of code.
 
-Define Branching:
+Define Branching: moving a section of code out of the master to edit.
 
-Define Committing: 
+Define Committing: Putting comments to updated code.
 
-Define Merging: 
+Define Merging: combining a file of code into the master file.
 
-Define Pushing:
+Define Pushing: taking a code from a master file.
 
-Define Pull Request:
+Define Pull Request: requesting to move your code into the master code file.
 
 
 '''
