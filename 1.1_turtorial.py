@@ -122,6 +122,7 @@ tina.end_fill()
 tina.penup()
 tina.goto(0,0)
 
+
 tommy.penup()
 tommy.goto(-100,-100)
 tina.goto(-100,-100)

@@ -1,21 +1,21 @@
 '''
-Sign your name:________________
+Sign your name: Oded Harazi
 
 
 
-Define Forking: 
+Define Forking: taking source code to develop new program.
 
-Define Cloning: 
+Define Cloning: Copying.
 
-Define Branching:
+Define Branching: Working on a project to the side without changing the main code for everybody.
 
-Define Committing: 
+Define Committing: sends changes out to github repository.
 
-Define Merging: 
+Define Merging: Connecting code or attachments to an existing project
 
-Define Pushing:
+Define Pushing: Sending the code out of local Pycharm.
 
-Define Pull Request:
+Define Pull Request: Pulling the code you pushed out to Github.
 
 
 '''
