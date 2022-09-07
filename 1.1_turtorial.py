@@ -8,28 +8,84 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
 
+tina = turtle.Turtle()
+tommy = turtle.Turtle()
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
-turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
+tommy.color('light blue')
+tina.color('yellow')
+
+tommy.penup() #color background
+tommy.speed(10)
+tommy.goto(-200,200)
+tommy.pendown()
+tommy.begin_fill()
+tommy.goto(200,200)
+tommy.goto(200,-200)
+tommy.goto(-200,-200)
+tommy.goto(-200,200)
+tommy.end_fill()
+
+tina.penup() #sun
+tina.speed(5)
+tina.goto(135,135)
+tina.color('yellow')
+tina.pendown()
+tina.begin_fill()
+tina.circle(75)
+tina.end_fill()
+tina.penup()
+
+tommy.goto(-125,125) #cloud 1
+tommy.color('white')
+tommy.pendown()
+tommy.begin_fill()
+tommy.circle(25)
+tommy.goto(-95,125)
+tommy.circle(25)
+tommy.goto(-65,125)
+tommy.circle(25)
+tommy.end_fill()
+tommy.penup()
+
+tommy.goto(-15,90) #cloud 2
+tommy.color('white')
+tommy.pendown()
+tommy.begin_fill()
+tommy.circle(25)
+tommy.goto(15,90)
+tommy.circle(25)
+tommy.goto(45,90)
+tommy.circle(25)
+tommy.end_fill()
+tommy.penup()
+
+tina.color('light blue') #tree trunk
+tina.goto(-100,-200)
+tina.color('brown')
+tina.pendown()
+tina.begin_fill()
+tina.goto(-100,-0)
+tina.goto(-50,0)
+tina.goto(-50,-200)
+tina.goto(-100,-200)
+tina.end_fill()
+tina.penup()
+
+tina.goto(-125,-75) #tree leaves
+tina.color('light green')
+tina.penup()
+tina.begin_fill()
+tina.circle(80)
+tina.goto(-25,-75)
+tina.circle(80)
+tina.goto(-75,-75)
+tina.circle(80)
+tina.end_fill()
+
+tommy.penup() #sign the picture
+tommy.goto(75,-50)
+tommy.color('black')
+tommy.pendown()
+tommy.write("Tommy Hensley")
+
