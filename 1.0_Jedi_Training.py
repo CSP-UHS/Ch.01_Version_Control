@@ -1,21 +1,21 @@
 '''
-Sign your name:________________
+Sign your name: Matthew Hammerand
 
 
 
-Define Forking: 
+Define Forking: duplicating the 'master code'
 
-Define Cloning: 
+Define Cloning: fancy form of dowloading to your computer
 
-Define Branching:
+Define Branching: making a second 'file' of sorts to change/test your code so you don't mess up your master code
 
-Define Committing: 
+Define Committing: a hard save that you can go back to later
 
-Define Merging: 
+Define Merging: taking a second branch and adding it back into your master branch
 
-Define Pushing:
+Define Pushing: taking the code that is on your computer and putting it back onto your github account
 
-Define Pull Request:
+Define Pull Request: taking the code that is in your github account and requesting it to go back into the master code
 
 
 '''
