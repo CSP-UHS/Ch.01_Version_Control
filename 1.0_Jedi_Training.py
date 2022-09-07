@@ -1,21 +1,21 @@
 '''
-Sign your name:________________
+Sign your name: Matthew
 
 
 
-Define Forking: 
+Define Forking: Cloning a repository
 
-Define Cloning: 
+Define Cloning: Copying
 
-Define Branching:
+Define Branching: Variations of a master project
 
-Define Committing: 
+Define Committing: Applying changes locally
 
-Define Merging: 
+Define Merging: Taking new code and combining it with the master
 
-Define Pushing:
+Define Pushing: Putting the committed code onto the repository
 
-Define Pull Request:
+Define Pull Request: Requesting for the master branch to add your code
 
 
 '''
