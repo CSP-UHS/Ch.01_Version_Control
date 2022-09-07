@@ -40,6 +40,7 @@ def stem():
   tina.goto(-40,-40)
   tina.end_fill()
 
+
 tina.speed(200)
 stem()
 tina.penup()
