@@ -8,28 +8,55 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
+
+tina = turtle.Turtle()
+
+tina.hideturtle()
+
+colors = ["red", "red", "red", "red",
+"red", "red", "red", "red",
+"red", "red", "red", "red",
+"red", "red", "red", "red"]
+
+def petals():
+  for each_color in colors:
+    tina.begin_fill()
+    angle = 360 / len(colors)
+    tina.color(each_color)
+    tina.circle(30)
+    tina.end_fill()
+    tina.right(angle)
+    tina.forward(30)
+
+def stem():
+  tina.penup()
+  tina.goto(-40,-40)
+  tina.begin_fill()
+  tina.color('green')
+  tina.pendown()
+  tina.goto(20,-40)
+  tina.goto(20,-200)
+  tina.goto(-40,-200)
+  tina.goto(-40,-40)
+  tina.end_fill()
+
+tina.speed(200)
+stem()
+tina.penup()
+tina.goto(0,150)
+tina.pendown()
+petals()
+tina.penup()
+tina.goto(-15,-10)
+tina.begin_fill()
+tina.pendown()
+tina.color('yellow')
+tina.circle(85)
+tina.end_fill()
+tina.penup()
+tina.goto(-50,-50)
+tina.color('black')
 
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+tina.write('Samuel Pattison',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
