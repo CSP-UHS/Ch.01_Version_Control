@@ -8,28 +8,79 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
 
+jim = turtle.Turtle()
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+jim.color('blue')
+
+jim.shape('arrow')
+
+jim.penup()
+jim.goto(0,-200)
+jim.pendown()
+jim.begin_fill()
+jim.goto(-200,-200)
+jim.goto(-200,200)
+jim.goto(200,200)
+jim.goto(200,-200)
+jim.goto(-200,-200)
+jim.end_fill()
+jim.penup()
+
+jim.color('white')
+
+jim.goto(-150,200)
+jim.pendown()
+jim.begin_fill()
+jim.goto(-150,175)
+jim.goto(-120,175)
+jim.goto(-120,-75)
+jim.goto(-150,-75)
+jim.goto(-150,-100)
+jim.goto(125,-100)
+jim.goto(125,-40)
+jim.goto(95,-40)
+jim.goto(95,-75)
+jim.goto(-90,-75)
+jim.goto(-90,175)
+jim.goto(-60,175)
+jim.goto(-60,200)
+jim.goto(-150,200)
+jim.end_fill()
+jim.penup()
+
+jim.goto(0,100)
+jim.pendown()
+jim.begin_fill()
+jim.goto(-25,100)
+jim.goto(-90,-175)
+jim.goto(-120,-175)
+jim.goto(-120,-200)
+jim.goto(-25,-200)
+jim.goto(-25,-175)
+jim.goto(-55,-175)
+jim.goto(0,70)
+jim.goto(0,100)
+jim.end_fill()
+jim.penup()
+
+jim.goto(0,100)
+jim.pendown()
+jim.begin_fill()
+jim.goto(25,100)
+jim.goto(90,-175)
+jim.goto(120,-175)
+jim.goto(120,-200)
+jim.goto(25,-200)
+jim.goto(25,-175)
+jim.goto(50,-175)
+jim.goto(0,70)
+jim.end_fill()
+jim.penup()
+
+jim.goto(50,150)
+jim.write('Carter McInville',font=("Arial", 16, "normal")) # signs your name to your art
+jim.goto(200,-200)
+
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
+done()
