@@ -8,27 +8,63 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
+import turtle
+
+tina = turtle.Turtle()
+
+
+tina.color('red')
+
+
+tina.shape('turtle')
+
+
+tina.begin_fill()
+tina.goto(200,0)
+tina.goto(200,-200)
+tina.goto(-200,-200)
+tina.goto(-200,0)
+tina.goto(0,0)
+tina.end_fill()
+
+tina.begin_fill()
+tina.goto(-200,0)
+tina.goto(-200,200)
+tina.goto(200,200)
+tina.goto(200,0)
+tina.end_fill()
+
+tina.goto(0,0)
+
+tina.color("white")
+
+tina.begin_fill()
+tina.goto(-200,0)
+tina.goto(-200,-20)
+tina.goto(200,-20)
+tina.goto(200,0)
+tina.goto(0,0)
+tina.goto(-200,0)
+tina.goto(-200,20)
+tina.goto(200,20)
+tina.goto(200,0)
+tina.goto(0,0)
+tina.end_fill()
+
+tina.goto(-30,0)
+tina.begin_fill()
+tina.goto(-35,200)
+tina.goto(0,200)
+tina.goto(0,-200)
+tina.goto(-35,-200)
+tina.goto(-35,200)
+tina.goto(0,200)
+tina.goto(5,200)
+tina.goto(5,-200)
+tina.goto(0,-200)
+tina.goto(0,200)
+tina.end_fill()
+turtle.exitonclick()
 
 
 yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
