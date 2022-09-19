@@ -52,8 +52,12 @@ tina.goto(-35,-200)
 tina.goto(-35,200)
 
 tina.end_fill()
+tina.goto(0,-300)
 tina.color("black")
 tina.write('Andrew Donoho',font=("Arial", 16, "normal")) # signs your name to your art
+tina.color("white")
+tina.goto(0,-500)
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
+
 
 
