@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f323334b-1d3c-498c-a02c-29765cbd39a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/1.1_turtorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.1_turtorial.py" afterDir="false" />
-    </list>
+    <list default="true" id="f323334b-1d3c-498c-a02c-29765cbd39a0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +28,17 @@
       <updated>1662952224729</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1662953741082">
