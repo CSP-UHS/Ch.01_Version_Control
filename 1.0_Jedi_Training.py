@@ -1,13 +1,13 @@
 '''
-Sign your name:________________
+Sign your name:Tanner Evitts
 
 
 
-Define Forking: 
-
+Define Forking: Pulling a document or file out of Github
+answer
 Define Cloning: 
 
-Define Branching:
+Define Branching: Different
 
 Define Committing: 
 
