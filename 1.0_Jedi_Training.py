@@ -15,7 +15,7 @@ Define Merging: Putting two branches together
 
 Define Pushing: Pushing a file out of Pycharm
 
-Define Pull Request: Pulling a file into Github
+Define Pull Request: Pulling a file into Github.
 
 
 '''
