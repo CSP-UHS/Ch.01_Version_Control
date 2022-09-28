@@ -4,18 +4,18 @@ Sign your name:Tanner Evitts
 
 
 Define Forking: Pulling a document or file out of Github
-answer
-Define Cloning: 
 
-Define Branching: Different
+Define Cloning: Pulling a document or file into Pycharm
 
-Define Committing: 
+Define Branching: Different codes on the same file
 
-Define Merging: 
+Define Committing: Confirming your changes to a file
 
-Define Pushing:
+Define Merging: Putting two branches together
 
-Define Pull Request:
+Define Pushing: Pushing a file out of Pycharm
+
+Define Pull Request: Pulling a file into Github
 
 
 '''

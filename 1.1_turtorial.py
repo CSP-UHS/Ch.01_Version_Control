@@ -43,5 +43,5 @@ tina.penup()
 tina.goto(-80,-150)
 tina.left(45)
 
-tina.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+tina.write('Tanner Evitts',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
